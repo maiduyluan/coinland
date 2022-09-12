@@ -1,0 +1,535 @@
+/* < 740PX */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@media only screen and (max-width: 768px) {   
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+
+	html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+img.rings {
+    width: 357px;
+}
+
+.phone {
+        width: 715px;
+        height: 480px;
+        position: relative;
+
+        animation-name: move;
+        animation-duration: 3s;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes move{
+        from { top: 0px; }
+        to { top: 50px; }
+    }
+
+img.img-phone {
+    width: 170px;
+    position: absolute;
+    top: 18px;
+    left: 91px;
+}
+
+.col-12.col-md-6.page10left {
+    opacity: 0;
+    visibility: hidden;
+    height: 1px;
+    margin-top: 100px;
+}
+
+
+
+.content-page9.wow.fadeInUp {
+    color: #FFFFFFB3;
+    width: 315px;
+    text-align: center;
+}
+
+.title-page9.wow.fadeInUp {
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.main-pag9 .rainbow i {
+    margin-left: 2px;
+}
+
+.main-page9 .rainbow{
+    text-align: center;
+    font-size: 8px;
+    margin: 50px 0px 20px 0px;
+}
+
+
+
+.main-page8 {
+    opacity: 0;
+    visibility: hidden;
+    height: 50px;
+}
+
+.content-page7.wow.fadeInUp {
+    color: #FFFFFFB3;
+    width: 315px;
+    text-align: center;
+}
+
+.title-page7.wow.fadeInUp {
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.main-pag7 .rainbow i {
+    margin-left: 2px;
+}
+
+.main-page7 .rainbow{
+    text-align: center;
+    font-size: 8px;
+    margin: 100px 0px 20px 0px;
+}
+
+
+.main-page6 {
+    margin-top: 100px;
+}
+
+
+.svg-content p {
+    color: #FFFFFFB3;
+}
+
+.svg-content h5 {
+    color: #FFF;
+}
+
+.card-svg img {
+    margin-bottom: 20px;
+    min-height: 56px;
+}
+
+.svg-content {
+    position: relative;
+    z-index: 1;
+    padding: 30px 20px 15px;
+    border: 1px solid #08b1b1;
+    background: rgba(0,0,0,0.1);
+    border-radius: 0 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.content-page5.wow.fadeInUp {
+    color: #FFFFFFB3;
+    width: 315px;
+    text-align: center;
+}
+
+.title-page5.wow.fadeInUp {
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.main-page5 .rainbow i {
+    margin-left: 2px;
+}
+
+.main-page5 .rainbow{
+    text-align: center;
+    font-size: 8px;
+    margin: 100px 0px 20px 0px;
+}
+
+
+button.btn-play {position: absolute;top: 29px;left: 125px;z-index: 1;width: 48;height: 48px;font-size: 12px;font-weight: 600;display: inline-block;padding: 0 20px;text-align: center;text-transform: uppercase;background-size: 200% auto;color: #fff;box-shadow: 0 3ox 20px rgba(0, 0, 0, 0.1);border-radius: 100px;background-image: -webkit-linear-gradient(left, #21d397 0%, #7450fe 51%, #21d397 100%);background-image: linear-gradient(to right, #21d397 0%, #7450fe 51%, #21d397 100%);-webkit-transition: all 500ms;transition: all 500ms;}
+
+
+.main-page4 img {width: 100%;border-radius: 15px;box-shadow: 0 0 50px rgb(0 0 0 / 15%);position: relative;top: -30px;}
+
+.square {
+    position: relative;
+    z-index: 1;
+    margin-top: 100px;
+    border: 1px solid #25cbd3;
+    border-radius: 15px;
+    padding: 0px 30px 0;
+    height: 144px;
+}
+
+
+
+
+.content-page4.wow.fadeInUp {
+    color: #FFFFFFB3;
+    width: 315px;
+    text-align: center;
+}
+
+.title-page4.wow.fadeInUp {
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.main-page4 .rainbow i {
+    margin-left: 2px;
+}
+
+.main-page4 .rainbow{
+    text-align: center;
+    font-size: 8px;
+    margin: 20px 0px;
+}
+
+
+.hr img {
+    width: 150px;
+    height: 150px;
+}
+
+.hr {
+    width: 100%;
+    text-align: center;
+}
+
+
+.main-page3 img {
+    background-size: cover;
+    width: 345px;
+    height: 359px;
+    margin-top: 40px;
+}
+
+
+.main-page3 button.btn-main-page3.wow.fadeInUp {
+    width: 130px;
+    border-radius: 30px;
+    background-image: -webkit-linear-gradient(left, #21d397 0%, #7450fe 51%, #21d397 100%);
+    background-image: linear-gradient(to right, #21d397 0%, #7450fe 51%, #21d397 100%);
+    position: relative;
+    z-index: 1;
+    height: 48px;
+    line-height: 48px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: #fff;
+    border-radius: 100px;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+    margin-left: 10px;
+}
+
+.content-page3.wow.fadeInUp {
+    color: #FFFFFFB3;
+    width: 315px;
+}
+
+.title-page3.wow.fadeInUp {
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.main-page3 .rainbow i {
+    margin-left: 2px;
+}
+
+.main-page3 .rainbow.wow.fadeInUp {
+    text-align: left;
+    font-size: 8px;
+    margin: 20px 0px;
+}
+
+.main-page2 button.btn-main-page2.wow.fadeInUp {
+    width: 130px;
+    border-radius: 30px;
+    background-image: -webkit-linear-gradient(left, #21d397 0%, #7450fe 51%, #21d397 100%);
+    background-image: linear-gradient(to right, #21d397 0%, #7450fe 51%, #21d397 100%);
+    position: relative;
+    z-index: 1;
+    height: 48px;
+    line-height: 48px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: #fff;
+    border-radius: 100px;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+    margin-left: 10px;
+}
+
+
+.content-page2.wow.fadeInUp {
+    color: #FFFFFFB3;
+    width: 315px;
+}
+
+.title-page2.wow.fadeInUp {
+    text-align: left;
+    color: #FFF;
+    font-size: 24px;
+}
+
+
+.img-page2 {
+    margin-top: 70px;
+}
+
+
+.header {
+    margin-top: 0px;
+}
+
+
+.card-body p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 24px;
+    font-weight: 600;
+    text-shadow: 0 0 5px rgb(0 243 255 / 50%);
+}
+
+.card-body img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: url(../img/svg/checkmark.svg) 50% no-repeat;
+    background-size: contain;
+    width: 31px;
+    height: 23px;
+}
+
+.card-body {
+    width: 300px;
+    height: 40px;
+    margin: 0 -100px;
+    background-color: rgba(13,0,59,.9);
+    border-radius: 5px;
+    color: #25cbd3;
+    position: relative;
+}
+
+.header-content .title p {
+    color: #FFF;
+    font-size: 45px;
+}
+
+img.card-img-top {
+    margin-bottom: 25px;
+    min-height: 75px;
+}
+
+.card.wow.fadeInUp {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 0 120px;
+    min-height: 205px;
+    padding-top: 37px;
+    padding-bottom: 25px;
+    box-shadow: 4px 4px 10px 0 rgb(168 67 253 / 30%);
+    overflow: hidden;
+    border-bottom: 3px solid #a843fd;
+    width: 345px;
+}
+
+.card-page1 {
+    margin-top: 60px;
+}
+
+.content-page1.wow.fadeInUp {
+    color: #FFFFFFB3;
+    width: 315px;
+}
+
+.title-page1.wow.fadeInUp {
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.main-page1 .rainbow i {
+    margin-left: 2px;
+}
+
+i.fas.fa-circle.dot7 {
+    color: #e84118;
+}
+
+i.fas.fa-circle.dot6 {
+    color: #e84118;
+}
+
+i.fas.fa-circle.dot5 {
+    color: #487eb0;
+}
+
+i.fas.fa-circle.dot4 {
+    color: #4cd137;
+}
+
+i.fas.fa-circle.dot3 {
+    color: #fbc531;
+}
+
+i.fas.fa-circle.dot2 {
+    color: #9c88ff;
+}
+
+i.fas.fa-circle.dot1 {
+    color: #00a8ff;
+}
+
+.main-page2 .hright .rainbow.wow.fadeInUp {
+    text-align: left;
+    font-size: 8px;
+    margin: 20px 0px;
+}
+
+.main-page2 {
+    margin-bottom: 100px;
+}
+
+.main-page1 {
+    margin-top: 70px;
+}
+
+.header-content button.btn-header-content {
+    width: 130px;
+    border-radius: 30px;
+    background-image: -webkit-linear-gradient(left, #21d397 0%, #7450fe 51%, #21d397 100%);
+    background-image: linear-gradient(to right, #21d397 0%, #7450fe 51%, #21d397 100%);
+    position: relative;
+    z-index: 1;
+    height: 48px;
+    line-height: 48px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: #fff;
+    border-radius: 100px;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+    margin-left: 10px;
+}
+
+.header-content .content p {
+    color: #FFF;
+}
+
+.dollar {
+    background-image: linear-gradient(to bottom right,#766ee6 0,#3540b0);
+    border-radius: 30px;
+    padding: 0px 15px;
+    color: #FFFFFFB3;
+}
+
+
+.header-content {
+    margin-top: 100px;
+}
+
+    
+
+    button.btn-login {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 12px !important;
+    text-transform: uppercase;
+    line-height: 33px;
+    padding: 0 20px;
+    min-width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    border: 2px solid;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border-color: #7450fe;
+}
+
+    .navbar {
+        padding: 0px 15px;
+        border-bottom: 1px solid #85858530;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        width: 100%;
+        transition: 0.5;
+    }
+
+    .navbar .navbar-brand {
+        padding: 0;
+    }
+
+    .navbar-brand p {
+        display: inline;
+        color: #FFFFFFb3;
+    }
+
+    .navbar button {
+        color: #FFF;
+        font-size: 30px;
+    }
+
+    .navbar-nav .nav-item a {
+        color: #FFFFFFb3;
+        text-decoration: none;
+    }
+
+    .header nav.navbar.navbar-expand-md.lock {
+        background-color: #0a2f8b;
+        transition: 0.4s;
+    }
+
+    .dark {
+        background: linear-gradient(180deg,#240044 0,#0f0240 25%,#400959 40%,#0f0240 65%,#0f0240);
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+}
